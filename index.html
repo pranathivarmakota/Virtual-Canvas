@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+    h1{
+        font-family: "Roboto";
+        font-size:60px;
+        margin-bottom:20px;
+    }
+    .button{
+        color: white;
+        background-color: #25b1cc;
+        width: 138px;
+        height: 36px;
+        border-width: 0px;
+        border-radius: 20px;
+        margin-top:20px;
+    }
+    .bg-container {
+    background-image: url("https://res.cloudinary.com/diu1icgoz/image/upload/v1683005215/WhatsApp_Image_2023-05-02_at_10.56.31_AM_zaa3zv.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.virtual-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 45px;
+}
+    
+</style>
+</head>
+
+
+<body>
+
+    <div  class="bg-container d-flex flex-column justify-content-end">
+        <div class="virtual-card">
+            <h1 class="main-heading">Virtual Canvas</h1>
+            <form action="/input" method="post">
+                <input type="submit" class="button" value="Get Started" name="Get Started">
+            </form>
+        </div>
+         
+    </div>
+     
+</body>
+
+</html>
