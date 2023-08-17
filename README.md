@@ -1,2 +1,2 @@
 # Virtual-Canvas
-Its an virtual canavs used to write on the screen with out using an external device
+Its an  Virtual Canvas used for interactive learning using Open CV
